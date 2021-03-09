@@ -8,7 +8,7 @@ print(logo)
 def round(first_choice, second_choice):
   print(f"Compare A: {first_choice['name']}, a {first_choice['description']}, from {first_choice['country']}")
   print(vs)
-  print(f"Compare B: {second_choice['name']}, a {second_choice['description']}, from {second_choice['country']}")
+  print(f"Against B: {second_choice['name']}, a {second_choice['description']}, from {second_choice['country']}")
 
 game_over = False
 score = 0
